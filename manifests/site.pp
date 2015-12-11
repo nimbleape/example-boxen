@@ -15,7 +15,8 @@ Exec {
     '/usr/bin',
     '/bin',
     '/usr/sbin',
-    '/sbin'
+    '/sbin',
+    '$PATH'
   ],
 
   environment => [
@@ -56,7 +57,7 @@ node default {
   include dnsmasq
   include git
   include hub
-  include nginx
+  include brewcask
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -67,6 +68,8 @@ node default {
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
+  nodejs::version { '4.2.3': }
+  nodejs::version { '5.1.1': }
 
   # default ruby versions
   ruby::version { '1.9.3': }

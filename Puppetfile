@@ -56,7 +56,6 @@ github "repository",  "2.4.1"
 github "ruby",        "8.5.3"
 github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
-github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -65,3 +64,11 @@ github "xquartz",     "1.2.1"
 # github "postgresql",  "4.0.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
+
+github "iterm2"
+github "osx"
+github "zsh"
+github "ohmyzsh",       "1.0.0", :repo => "erivello/puppet-ohmyzsh"
+github "sublime_text"
+github "dockutil",      "0.2.0", :repo => "grahamgilbert/puppet-dockutil"
+github "appstore",      "0.0.7", :repo => "xdissent/puppet-appstore"

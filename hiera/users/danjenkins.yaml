@@ -1,0 +1,8 @@
+# App Store credentials:
+appstore::appleid: my-appstore-apple-id
+appstore::password: my-appstore-password
+
+# Optional App Store location:
+appstore::store: gb
+
+"nodejs::build::ensure": "v2.0.3"
